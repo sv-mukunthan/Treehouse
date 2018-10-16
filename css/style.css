@@ -1,0 +1,148 @@
+body{
+
+}
+
+.navbar{
+	background-color:#000000;
+}
+@media screen and (max-width: 768px){
+	.navbar{
+		width: 1244px;
+	}
+}
+@media screen and (min-width: 1920px){
+	.navbar{
+		width: 1400px;
+	}
+} 
+.navbar-nav{
+	position: absolute;
+	top:6%;
+	left: 850%;
+}
+
+.nav-img{
+	max-width: 40px;
+	margin-top: -6%;
+	margin-bottom: -5%;
+	margin-left: 110%;
+	/*position: absolute;
+	top:15%;
+	left: 15%;*/
+}
+
+.navbar p{
+	width: 100%;
+	color: #ffffff;
+	font: bold;
+	position: absolute;
+	top: 20%;
+	margin-left: 6rem;
+}
+.container{
+	margin-left: -15px;
+	max-width:970px;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media screen and (max-width: 678px){
+	.container .middle .text{
+		position: absolute;
+		top:20px;
+		left: 250px;
+	}
+}
+.container:hover .bg-img {
+  opacity: 0.2;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.text {
+  color: #999999;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.btn{
+	background-color: #0DFEFE;
+	border: none;
+}
+.container .bg-img{
+	position: absolute;
+	margin-left: -7.5rem;
+}
+
+.head{
+	position: absolute;
+	top: 600px;
+	left: 460px;
+	text-align: center;
+}
+@media screen and(max-width: 678px){
+	.intro .head{
+		position: absolute;
+		top:550px;
+		left: 350px;
+	}
+}
+
+.symble{
+	width: 40px;
+	height: 40px;
+}
+
+.box1{
+	text-align: center;
+	position: absolute;
+	top: 650px;
+	left: 20px;
+}
+.box2{
+	text-align: center;
+	position: absolute;
+	top: 650px;
+	left: 40px;
+}
+.box3{
+	text-align: center;
+	position: absolute;
+	top: 650px;
+	left: 60px;
+}
+@media screen and(max-width: 678px){
+	.col-md-4 .box1{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+}
+
+.setting{
+	margin-top: 830px;
+	margin-left: -35px;
+	overflow: hidden;
+}
+
+.about{
+	position: absolute;
+	top: 922px;
+	left: 434px;
+	opacity: 0.5;
+	text-align: center;
+}
+@media screen and(max-width: 678px){
+	.about img{
+		position: absolute;
+		left: 100px;
+	}
+}
